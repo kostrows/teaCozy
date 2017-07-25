@@ -13,11 +13,13 @@ h2 {
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
+  padding: 10px 10px;
 }
 
 h4 {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
+  padding: 10px 10px;
   text-align: center;
 }
 
@@ -83,6 +85,7 @@ nav a {
   width: 100%;
   height: 103px;
   background-color: black;
+  padding-bottom: 10px;
 }
 
 .main-image .headline h2 {
@@ -97,10 +100,11 @@ nav a {
 .tea-section {
   width: 1000px;
   margin: auto;
+  padding-bottom: 60px;
 }
 
 .heading {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .heading h4 {
@@ -110,14 +114,13 @@ nav a {
 .teas {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
 }
 
 .tea {
-  margin-top: 25px;
   display: flex;
   flex-direction: column;
+  padding: 0px 15px;
 }
 
 .tea h4 {
@@ -134,21 +137,18 @@ nav a {
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 100px;
-  background-position: 30% 30%;
+  padding-top: 60px;
 }
 
 .location-heading {
   display: flex;
   justify-content: center;
+
 }
 
 .location-heading h2{
   display: flex;
+  padding: 0px;
 }
 
 .location-heading p{
@@ -178,12 +178,8 @@ nav a {
   height: 200px;
 }
 
-.contact h2 {
-  padding: 10px 0px;
-}
-
 /* Footer */
 footer {
   text-align: left;
-  margin-left: 20px;
+  margin-left: 20px
 }

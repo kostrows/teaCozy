@@ -21,6 +21,10 @@ h4 {
   text-align: center;
 }
 
+h5 {
+  text-align: center;
+}
+
 /* Header */
 header {
   height: 69px;
@@ -125,6 +129,62 @@ nav a {
   height: 200px;
 }
 
-.center {
-  align-self: center;
+/* Location Section */
+.location-section {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+  background-position: 30% 30%;
+}
+
+.location-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.location-heading h2{
+  display: flex;
+}
+
+.location-heading p{
+  display: flex;
+}
+
+.locations {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 15px;
+  }
+
+.location-box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+  align-items: center;
+  margin-right: 40px;
+}
+
+/* Footer */
+footer {
+  height: 200px;
+}
+
+footer h2 {
+  padding-top: 10px;
+}
+footer a {
+  color: seashell;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
 }

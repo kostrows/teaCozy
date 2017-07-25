@@ -172,19 +172,18 @@ nav a {
   margin-right: 40px;
 }
 
-/* Footer */
-footer {
+/* Contact Section */
+
+.contact {
   height: 200px;
 }
 
-footer h2 {
-  padding-top: 10px;
-}
-footer a {
-  color: seashell;
+.contact h2 {
+  padding: 10px 0px;
 }
 
-.footer-contact {
-  display: flex;
-  flex-direction: column;
+/* Footer */
+footer {
+  text-align: left;
+  margin-left: 20px;
 }
